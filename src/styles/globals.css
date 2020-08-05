@@ -1,0 +1,24 @@
+:root {
+  --backgroundColor: #1e1e1e;
+  --borderColor: #474747;
+  --textColor: #CCCCCC;
+  --linkColor: #34ea3f;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--textColor);
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
